@@ -2,20 +2,67 @@
 
 body {
     font-family: helvetica, sans-serif;
-    width: 350px;
+    font-size: 16px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #ffc125;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 0 4px 20px beige;
+    margin: 10px;
+    border: aliceblue;
+    border-radius: 0px 40px 0px 40px;
+    width: 97vw;
+}
+main{
+    height: 80vh;
+    width: 90vw;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(17, 25, 40, 0.086);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 label {
     font-weight: bold;
+    font-size: 1.5rem;
+    color: #070a59;
+    padding-right: 10px;
+    text-align: right;
 }
 
 div {
-    padding-bottom: 20px;
+    padding-bottom: 4rem;
 }
 
 input[type="text"] {
+    padding: 2px;
+    width: 300px;
+    font-size: 1.5rem;
+    border: 1.5px solid #051044;
+    border-radius: 5px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #070a59;
+}
+button{
+    font-size: 1.5rem;
     padding: 5px;
-    width: 150px;
+    border-radius: 5px;
+    border: 1.5px solid #b8c3f9;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fefeff;
 }
 /* Hide the output paragraph until the user has submitted the form */
 p {
@@ -23,4 +70,9 @@ p {
     color: #5e2612;
     padding: 10px;
     visibility: hidden;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px beige;
 }
